@@ -170,11 +170,11 @@ export class ZoomableImage implements OnInit, OnDestroy {
     this.checkScroll();
 
     if (this.scale > this.maxScale) {
-      this.animateScale(this.maxScale);
+      // this.animateScale(this.maxScale);
 
-      this.zoomChange.emit({
-        scale: this.maxScale,
-      });
+      // this.zoomChange.emit({
+      //   scale: this.maxScale,
+      // });
     } else if (this.scale < this.minScale) {
       this.animateScale(this.minScale);
 
