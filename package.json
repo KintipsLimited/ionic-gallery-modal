@@ -67,7 +67,8 @@
     "zone.js": "0.8.14"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "repository": {
     "type": "git",
